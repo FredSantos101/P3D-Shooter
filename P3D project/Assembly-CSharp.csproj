@@ -59,12 +59,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EnemyBullet.cs" />
+    <Compile Include="Assets\EnemyControler.cs" />
+    <Compile Include="Assets\GameControler.cs" />
     <Compile Include="Assets\Scripts\AmmoBoxController.cs" />
     <Compile Include="Assets\Scripts\CrossArrowControler.cs" />
     <Compile Include="Assets\Scripts\FreeLookCamEDITED.cs" />
     <Compile Include="Assets\Scripts\PlayerControler.cs" />
     <Compile Include="Assets\Scripts\ProjectileControler.cs" />
     <Compile Include="Assets\Scripts\WeaponControler.cs" />
+    <Compile Include="Assets\Shoot.cs" />
     <Compile Include="Assets\WarZone\CrossPlatformInput\Scripts\VirtualInput.cs" />
     <Compile Include="Assets\WarZone\Scripts\DestroyObject.cs" />
     <Compile Include="Assets\WarZone\Scripts\GunController.cs" />

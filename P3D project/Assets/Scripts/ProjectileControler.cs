@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ProjectileControler : MonoBehaviour {
 
-    private int bulletDamage;
+    public int bulletDamage;
     private float lifeTime;
     private int movSpeed;
 
@@ -36,7 +36,7 @@ public class ProjectileControler : MonoBehaviour {
 
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            //collision.gameObject.GetComponent<>().damage(bullet_damage);
+            collision.gameObject.GetComponent<EnemyControler>().damage(bulletDamage);
             print("ola"); 
             Destroy(gameObject);
         }

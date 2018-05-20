@@ -133,7 +133,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63fa52f37914c43ca863d10f978e9e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  direction: {x: -0.7608712, y: -0.6093661, z: -0.22304285}
+  bulletDamage: 25
+  direction: {x: 0.9764701, y: 0.06932353, z: 0.20420672}
   bullet: {fileID: 1090529531557360}
 --- !u!136 &136915639607052148
 CapsuleCollider:

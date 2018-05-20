@@ -7,6 +7,8 @@ TagManager:
   - Fire
   - Water
   - House
+  - Wall
+  - Enemy
   layers:
   - Default
   - TransparentFX
